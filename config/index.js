@@ -21,13 +21,15 @@ export const config = {
     // 所在省份
     PROVINCE: "山东",
     // 所在城市
-    CITY: "潍坊",
+    CITY: "潍坊市",
 
     /** 生日相关 */
 
     // 生日，修改名字为对应需要显示的名字, data 仅填月日即可, 请严格按照示例填写
-    BIRTHDAYS: [
+    BIRTHDAY: [
       {"name":"林小爱", "year": "2001", "date": "09-21"},
+    ],
+     BIRTHDAYS: [
       {"name":"鹏小🐟", "year": "2001", "date": "12-19"},
     ],
   
@@ -43,7 +45,7 @@ export const config = {
 
     // 好文节选的内容类型
     // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-    LITERARY_PREFERENCE: ""
+    LITERARY_PREFERENCE: "原创"
 
 
     }
@@ -54,7 +56,8 @@ export const config = {
 //🌘最低气温: {{min_temperature.DATA}}  
 //🌞最高气温: {{max_temperature.DATA}}  
 //💕今天是我们恋爱的第{{love_day.DATA}}天
-//🎂{{birthday_message.DATA}}🎂
+//🎂{{birthday_message.DATA}}
+//🎂{{birthdays_message.DATA}}
 
 // {{note_en.DATA}}  
 // {{note_ch.DATA}}
