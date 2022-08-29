@@ -27,11 +27,10 @@ export const config = {
 
     // 生日，修改名字为对应需要显示的名字, data 仅填月日即可, 请严格按照示例填写
     BIRTHDAYS: [
-      {"name": "林小爱", "year": "2001", "date": "09-21"},
+      {"name":"林小爱", "year": "2001", "date": "09-21"},
+      {"name":"鹏小🐟", "year": "2001", "date": "12-19"},
     ],
-    BIRTHDAYS: [
-      {"name": "鹏小🐟", "year": "2001", "date": "12-19"},
-    ],
+  
 
     /** 日期相关 */
 
@@ -55,8 +54,7 @@ export const config = {
 //🌘最低气温: {{min_temperature.DATA}}  
 //🌞最高气温: {{max_temperature.DATA}}  
 //💕今天是我们恋爱的第{{love_day.DATA}}天
-//🎂{{birthday_message.DATA}}
-//🎂{{birthday_message.DATA}}
+//🎂{{birthday_message.DATA}}🎂
 
 // {{note_en.DATA}}  
 // {{note_ch.DATA}}
