@@ -44,5 +44,5 @@ export const config = {
 //🌞最高气温: {{max_temperature.DATA}}  
 //💕今天是我们恋爱的第{{love_day.DATA}}天
 //{{birthdays_message.DATA}}
-// {{note_en.DATA}}  
-// {{note_ch.DATA}} 
+// {{one_talk.DATA}}  
+// {{talk_from.DATA}} 
