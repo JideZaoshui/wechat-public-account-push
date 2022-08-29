@@ -8,7 +8,7 @@ export const config = {
     // 公众号APP_SECRET
     APP_SECRET: "4d1c457b72bd5f0dfc899c2972e422d0",
     // 模板消息id
-    TEMPLATE_ID: "srYOzUxmdaXpuHJ8Zvgzq9sR61NPb-iYTIGxktA2FkE",
+    TEMPLATE_ID: "XuETR_xeDquWW0fQUYOh2etPbMIFcF_2VHGXxjJ9Cm4",
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
     USERS: ["o2z3m5p3OGIE2CAckijMKadxT8l0"],
      
@@ -32,11 +32,6 @@ export const config = {
    /** 日期相关 */ 
    // 在一起的日子，格式同上 
  LOVE_DATE: "2021-03-14",  
-     /** 好文节选 */ 
-   // 好文节选的内容类型 
- // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 "" 
- LITERARY_PREFERENCE: "" 
-     } 
 //📆今天是 {{date.DATA}}  
 //🌏城市：{{city.DATA}}  
 //⛅天气：{{weather.DATA}}  
