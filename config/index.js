@@ -8,7 +8,7 @@ export const config = {
     // 公众号APP_SECRET
     APP_SECRET: "4d1c457b72bd5f0dfc899c2972e422d0",
     // 模板消息id
-    TEMPLATE_ID: "reQLvY9CpB7IW4gQ4X2tX0nLjz_OEOtleL8--igg9QA",
+    TEMPLATE_ID: "269_bTJI931q_CUCPOHfcEy7AWxKACglYkMYkx_XVEA",
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
     USERS: ["o2z3m5p3OGIE2CAckijMKadxT8l0"],
      
@@ -45,4 +45,3 @@ export const config = {
 //💕今天是我们恋爱的第{{love_day.DATA}}天
 //{{birthdays_message.DATA}}
 // {{one_talk.DATA}}  
-// {{talk_from.DATA}} 
