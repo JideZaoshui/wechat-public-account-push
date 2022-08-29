@@ -23,32 +23,20 @@ export const config = {
     // 所在城市
     CITY: "潍坊",
 
-    /** 生日相关 */
-
-    // 生日，修改名字为对应需要显示的名字, data 仅填月日即可, 请严格按照示例填写
-    BIRTHDAY: [
-      {"name":"林小爱", "year": "2001", "date": "09-21"},
-      {"name":"鹏小🐟", "year": "2001", "date": "12-19"},
-    ],
-    
-  
-
-    /** 日期相关 */
-
-    // 在一起的日子，格式同上
-    LOVE_DATE: "2021-03-14",
-    
-
-
-    /** 好文节选 */
-
-    // 好文节选的内容类型
-    // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-    LITERARY_PREFERENCE: "原创"
-
-
-    }
-
+ /** 生日相关 */ 
+   // 生日，修改名字为对应需要显示的名字, data 仅填月日即可, 请严格按照示例填写 
+ BIRTHDAYS: [ 
+ {"name": "林小爱", "year": "2001", "date": "09-21"}, 
+ {"name": "鹏小🐟", "year": "2001", "date": "12-19"}, 
+ ], 
+   /** 日期相关 */ 
+   // 在一起的日子，格式同上 
+ LOVE_DATE: "2021-03-14",  
+     /** 好文节选 */ 
+   // 好文节选的内容类型 
+ // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 "" 
+ LITERARY_PREFERENCE: "" 
+     } 
 //📆今天是 {{date.DATA}}  
 //🌏城市：{{city.DATA}}  
 //⛅天气：{{weather.DATA}}  
@@ -56,7 +44,5 @@ export const config = {
 //🌞最高气温: {{max_temperature.DATA}}  
 //💕今天是我们恋爱的第{{love_day.DATA}}天
 //{{birthdays_message.DATA}}
-
-
 // {{note_en.DATA}}  
-// {{note_ch.DATA}}
+// {{note_ch.DATA}} 
