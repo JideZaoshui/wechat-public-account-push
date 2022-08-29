@@ -44,5 +44,6 @@ export const config = {
 //🌞最高气温: {{max_temperature.DATA}}  
 //💕今天是我们恋爱的第{{love_day.DATA}}天
 //{{birthdays_message.DATA}}
-// {{note_en.DATA}}  
-// {{note_ch.DATA}} 
+//见到你的时候，浩瀚星河皆为浮沉
+//In this boring textbook is hope and the future
+//在这枯燥无味的课本里都是希望和未来
